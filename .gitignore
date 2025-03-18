@@ -1,0 +1,31 @@
+# Environment variables
+.env
+.env.local
+.env.*
+
+# Composer dependencies
+/vendor/
+composer.lock
+
+# Configuration files with credentials
+midtrans_config.php
+config_private.php
+
+# Logs
+*.log
+logs/
+
+# Uploads folder
+/uploads/
+/public/uploads/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
